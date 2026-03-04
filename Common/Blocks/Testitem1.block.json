@@ -1,0 +1,12 @@
+{
+  "id": "VZ:Testitem1",
+  "displayName": "Testitem1",
+  "description": "Bloque de pruebas que invoca un enemigo al colocarlo.",
+  "category": "building",
+  "tags": ["spawn_trigger", "test"],
+  "hardness": 1.0,
+  "requiresTool": false,
+  "onPlaced": {
+    "serverEvent": "vz.testitem1.block_placed"
+  }
+}
